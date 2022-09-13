@@ -396,12 +396,12 @@ def check_write_config() -> bool:
         config = configparser.ConfigParser()
         config["Mail Settings"] = {
             "Use Email Notifications": "True",
-            "Mail Server": "mail.jhuapl.edu",
+            "Mail Server": "mail.example.test", # replace with your mail server
             "Mail Server Port": "25",
             "Mail Uses SSL Encryption": "false",
             "SMTP Username": "ENTER USERNAME HERE, OR LEAVE BLANK IF AUTHENTICATION IS NOT NEEDED",
             "SMTP Password": "ENTER PASSWORD HERE, OR LEAVE BLANK IF AUTHENTICATION IS NOT NEEDED",
-            "Notification From Email Address": "ICSFeedAlerts@alerts.jhuapl.edu"
+            "Notification From Email Address": "ICSFeedAlerts_DO_NOT_REPLY@alerts.example.test" #replace with your own "DO NOT REPLY" email address
         }
 
         config["Slack Settings"] = {
