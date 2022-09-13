@@ -1,0 +1,20 @@
+<!-- This file does NOT need to be included when distributing. It is just used to make making make_html() easier -->
+<html>
+<head>
+    <div style="text-align: center">
+        <h1 style="color: red">ATTENTION: The following alert references your specified vendors AND products!</h1>
+        <h1>{title} ({entry_id})</h1>
+    </div>
+</head>
+<body>
+    <div style="text-align: center">
+        <h3 style="font-weight: normal">Published: {date_published}</h3>
+        <h2 style="font-weight: normal; color: darkred">CVSS Score: {score}</h2>
+        <h2 style="font-weight: normal">Attention: {attention}</h2>
+        <h2 style="font-weight: normal">Affected Product: {equipment} from {vendor}</h2>
+        <h2 style="font-weight: normal">Vulnerabilities: {vulnerabilities}</h2>
+        <h3 style="font-weight: normal">{summary}</h3>
+        <a href="{link}"><h2 style="font-weight: normal">View ICS Page</h2></a>
+    </div>
+</body>
+</html>
