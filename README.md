@@ -1,7 +1,7 @@
 # ICSFeedParser
 
 ## Description
-This is a simple feed meant to monitor the CISA ICS alert feed RSS stream, investigate the alerts and their reference pages, and then query against a keyword list of vendors/products of interest to a particular community. The initial use case is to have this run automatically at an ISAC/ISAO in order to reduce the manual workload of monitoring the feed.
+This is a simple feed meant to monitor the CISA ICS advisory feed RSS stream, investigate the advisories and their reference pages, and then query against a keyword list of vendors/products of interest to a particular community. The initial use case is to have this run automatically at an organization in order to reduce the manual workload of monitoring the feed.
 
 ## Getting started
 
