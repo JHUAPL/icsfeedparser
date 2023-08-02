@@ -1,0 +1,5 @@
+feedparser
+requests
+bs4
+bleach
+pip-tools
